@@ -1,0 +1,26 @@
+title {
+z-index:-100;
+position: relative;
+}
+
+iframe {
+position:absolute;
+top:50%;
+left:50%;
+ transform: translate(-50%, -50%);
+}
+
+ .bg {
+position: fixed;
+top: 0;
+left: 0;
+bottom: 0;
+right: 0;
+z-index: -999;
+}
+
+.bg img {
+min-height: 50%;
+min-width: 1000px;
+width: 100%;
+}
